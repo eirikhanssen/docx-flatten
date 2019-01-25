@@ -3,7 +3,7 @@
     xmlns:c="http://www.w3.org/ns/xproc-step" version="1.0"
     xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
     name="flatten" exclude-inline-prefixes="c">
-    
+
     <p:input port="source">
         <p:inline>
             <pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
@@ -39,12 +39,38 @@
                 xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"/>
         </p:inline>
     </p:input>
-    
+
     <p:input port="parameters" kind="parameter" sequence="true"></p:input>
-    
+
     <p:output port="result"/>
     <p:serialization port="result" indent="true" method="xml" omit-xml-declaration="true"/>
-    
+
+    <p:xslt name="xslt1" version="2.0">
+        <p:input port="stylesheet">
+            <p:inline>
+                <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage">
+                    <xsl:param name="folder" select="folder"/>
+                    <xsl:variable name="rels" select="'/_rels/.rels'"/>
+
+                    <xsl:template match="/pkg:package">
+                        <xsl:copy>
+                            <xsl:copy-of select="node() | @*"/>
+                            <pkg:part pkg_name="{$rels}"><pkg:xmlData><xsl:sequence select="doc(concat($folder,$rels))"></xsl:sequence></pkg:xmlData></pkg:part>
+                        </xsl:copy>
+                    </xsl:template>
+
+                    <xsl:template match="node() | @*">
+                        <xsl:apply-templates select="node() | @*"/>
+                    </xsl:template>
+
+                </xsl:stylesheet>
+            </p:inline>
+        </p:input>
+        <p:input port="parameters">
+            <p:pipe port="parameters" step="flatten"/>
+        </p:input>
+    </p:xslt>
+
     <p:identity name="final"/>
-    
+
 </p:declare-step>

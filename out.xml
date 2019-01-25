@@ -1,5 +1,4 @@
-
-            <pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+<pkg:package xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
              xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
              xmlns:cx="http://schemas.microsoft.com/office/drawing/2014/chartex"
              xmlns:cx1="http://schemas.microsoft.com/office/drawing/2015/9/8/chartex"
@@ -29,6 +28,21 @@
              xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk"
              xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml"
              xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape"
-             xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes"/>
-        
+             xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
+   <pkg:part pkg_name="/_rels/.rels">
+      <pkg:xmlData>
+         <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+            <Relationship Id="rId3"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties"
+                          Target="docProps/app.xml"/>
+            <Relationship Id="rId2"
+                          Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties"
+                          Target="docProps/core.xml"/>
+            <Relationship Id="rId1"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument"
+                          Target="word/document.xml"/>
+         </Relationships>
+      </pkg:xmlData>
+   </pkg:part>
+</pkg:package>
 
