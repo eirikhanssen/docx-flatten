@@ -1,0 +1,2 @@
+#!/bin/bash
+calabash -p folder="/home/hanson/projects/docx2jats/ocf2jats/sample/sample-unzipped" docx-flatten.xpl
