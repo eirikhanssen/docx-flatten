@@ -91,6 +91,9 @@
                                 <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="."/></xsl:call-template>
                             </xsl:for-each>
                             
+                            <xsl:for-each select="//pkg:part[@pkg_name='/word/_rels/document.xml.rels']//rp:Relationship[@Type != 'http://schemas.openxmlformats.org/officeDocument/2006/relationships/image']/string(@Target)">
+                                <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="concat('word/',.)"/></xsl:call-template>
+                            </xsl:for-each>
                         </xsl:copy>
                     </xsl:template>
                     
