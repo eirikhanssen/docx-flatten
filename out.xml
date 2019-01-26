@@ -14,6 +14,7 @@
              xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d"
              xmlns:o="urn:schemas-microsoft-com:office:office"
              xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+             xmlns:rp="http://schemas.openxmlformats.org/package/2006/relationships"
              xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
              xmlns:v="urn:schemas-microsoft-com:vml"
              xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
@@ -42,6 +43,1616 @@
                           Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument"
                           Target="word/document.xml"/>
          </Relationships>
+      </pkg:xmlData>
+   </pkg:part>
+   <pkg:part pkg_name="/word/_rels/document.xml.rels">
+      <pkg:xmlData>
+         <Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+            <Relationship Id="rId8"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header"
+                          Target="header1.xml"/>
+            <Relationship Id="rId3"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings"
+                          Target="settings.xml"/>
+            <Relationship Id="rId7"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/image"
+                          Target="media/image1.png"/>
+            <Relationship Id="rId12"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/theme"
+                          Target="theme/theme1.xml"/>
+            <Relationship Id="rId2"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles"
+                          Target="styles.xml"/>
+            <Relationship Id="rId1"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering"
+                          Target="numbering.xml"/>
+            <Relationship Id="rId6"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/endnotes"
+                          Target="endnotes.xml"/>
+            <Relationship Id="rId11"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable"
+                          Target="fontTable.xml"/>
+            <Relationship Id="rId5"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes"
+                          Target="footnotes.xml"/>
+            <Relationship Id="rId10"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/header"
+                          Target="header2.xml"/>
+            <Relationship Id="rId4"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings"
+                          Target="webSettings.xml"/>
+            <Relationship Id="rId9"
+                          Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/footer"
+                          Target="footer1.xml"/>
+         </Relationships>
+      </pkg:xmlData>
+   </pkg:part>
+   <pkg:part pkg_name="docProps/app.xml">
+      <pkg:xmlData>
+         <Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties">
+            <Template>Normal</Template>
+            <TotalTime>0</TotalTime>
+            <Pages>4</Pages>
+            <Words>574</Words>
+            <Characters>3275</Characters>
+            <Application>Microsoft Office Word</Application>
+            <DocSecurity>0</DocSecurity>
+            <Lines>27</Lines>
+            <Paragraphs>7</Paragraphs>
+            <ScaleCrop>false</ScaleCrop>
+            <HeadingPairs>
+               <vt:vector size="2" baseType="variant">
+                  <vt:variant>
+                     <vt:lpstr>Title</vt:lpstr>
+                  </vt:variant>
+                  <vt:variant>
+                     <vt:i4>1</vt:i4>
+                  </vt:variant>
+               </vt:vector>
+            </HeadingPairs>
+            <TitlesOfParts>
+               <vt:vector size="1" baseType="lpstr">
+                  <vt:lpstr/>
+               </vt:vector>
+            </TitlesOfParts>
+            <Company/>
+            <LinksUpToDate>false</LinksUpToDate>
+            <CharactersWithSpaces>3842</CharactersWithSpaces>
+            <SharedDoc>false</SharedDoc>
+            <HyperlinksChanged>false</HyperlinksChanged>
+            <AppVersion>16.0000</AppVersion>
+         </Properties>
+      </pkg:xmlData>
+   </pkg:part>
+   <pkg:part pkg_name="docProps/core.xml">
+      <pkg:xmlData>
+         <cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties"
+                            xmlns:dc="http://purl.org/dc/elements/1.1/"
+                            xmlns:dcterms="http://purl.org/dc/terms/"
+                            xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+                            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <dc:title/>
+            <dc:subject/>
+            <dc:creator>IEUser</dc:creator>
+            <cp:keywords/>
+            <dc:description/>
+            <cp:lastModifiedBy>eirikh</cp:lastModifiedBy>
+            <cp:revision>2</cp:revision>
+            <cp:lastPrinted>2018-12-19T16:06:00Z</cp:lastPrinted>
+            <dcterms:created xsi:type="dcterms:W3CDTF">2019-01-15T09:59:00Z</dcterms:created>
+            <dcterms:modified xsi:type="dcterms:W3CDTF">2019-01-15T09:59:00Z</dcterms:modified>
+         </cp:coreProperties>
+      </pkg:xmlData>
+   </pkg:part>
+   <pkg:part pkg_name="word/document.xml">
+      <pkg:xmlData>
+         <w:document mc:Ignorable="w14 w15 w16se w16cid wp14">
+            <w:body>
+               <w:p w14:paraId="252EF5F2"
+                    w14:textId="77777777"
+                    w:rsidR="003712CA"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading1"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:bookmarkStart w:id="0" w:name="_Hlk532879936"/>
+                  <w:r w:rsidRPr="00B209B7">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Karriereforventninger under glasstaket: Kvinner i starten av en ingeniørkarriere</w:t>
+                  </w:r>
+                  <w:bookmarkEnd w:id="0"/>
+               </w:p>
+               <w:p w14:paraId="159E0235"
+                    w14:textId="77777777"
+                    w:rsidR="003712CA"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Forfattere"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00B209B7">
+                     <w:t>Aagoth Elise Storvik</w:t>
+                  </w:r>
+                  <w:r>
+                     <w:t xml:space="preserve"> og </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00B209B7">
+                     <w:t>Bente Abrahamsen</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="69C7750E"
+                    w14:textId="77777777"
+                    w:rsidR="003712CA"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Kontaktinfo"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00B209B7">
+                     <w:t xml:space="preserve">Aagoth Elise Storvik, professor ved Handelshøyskolen, </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00AE6282">
+                     <w:t>OsloMet – storbyuniversitetet</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="23E29712"
+                    w14:textId="77777777"
+                    w:rsidR="003712CA"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Kontaktinfo"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00B209B7">
+                     <w:t>Bente Abrahamsen, professor ved Senter for profesjonsstudier</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00AE6282">
+                     <w:t xml:space="preserve"> OsloMet – storbyuniversitetet</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="46CA401E"
+                    w14:textId="35ED6BC3"
+                    w:rsidR="003712CA"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Kontaktinfo"/>
+                  </w:pPr>
+                  <w:r>
+                     <w:t>Korrespondanse</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00AE6282">
+                     <w:t>:</w:t>
+                  </w:r>
+                  <w:r>
+                     <w:t xml:space="preserve"> </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00B209B7">
+                     <w:t>Bente Abrahamsen, professor ved Senter for profesjonsstudier</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00AE6282">
+                     <w:t xml:space="preserve"> OsloMet – storbyuniversitetet</w:t>
+                  </w:r>
+                  <w:bookmarkStart w:id="1" w:name="_GoBack"/>
+                  <w:bookmarkEnd w:id="1"/>
+               </w:p>
+               <w:p w14:paraId="2D3B699B"
+                    w14:textId="77777777"
+                    w:rsidR="003712CA"
+                    w:rsidRPr="00332135"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading2"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00332135">
+                     <w:t>Abstract</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="1E6718AF"
+                    w14:textId="46998639"
+                    w:rsidR="006D3EFA"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Abstract"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00332135">
+                     <w:t>Engineering is one of the most common educational background for managers in Norway. Earlier studies have shown that women engineers, compared to their male colleagues, less frequently become managers. In this study, career ambitions and career expectations among male and female engineering students are investigated. The results reveal that women and men have equal ambitions, but different career expectations.</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="6111A131"
+                    w14:textId="77777777"
+                    w:rsidR="003712CA"
+                    w:rsidRPr="000E6E42"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Keywords"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="000E6E42">
+                     <w:rPr>
+                        <w:b/>
+                     </w:rPr>
+                     <w:t>Keywords:</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="000E6E42">
+                     <w:t xml:space="preserve"> Management, gender, career, engineers, expectations</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="6CEFDB4B"
+                    w14:textId="77777777"
+                    w:rsidR="003712CA"
+                    w:rsidRPr="000E6E42"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading2"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="000E6E42">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Abstrakt</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="0ABF1EEA"
+                    w14:textId="1A518802"
+                    w:rsidR="003712CA"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Abstrakt"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00EF32BB">
+                     <w:t xml:space="preserve">Ingeniørutdanningen utgjør en de viktigste lederutdanningene i Norge. </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="003712CA">
+                     <w:t>Tidligere</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00EF32BB">
+                     <w:t xml:space="preserve"> studier har vist at innenfor ingeniøryrket har kvinner lavere sannsynlighet for å få lederstillinger enn sin sine mannlige kolleger. Vi undersøker studenter på ingeniørutdanningen og ser på om kvinners og menns ambisjoner og forventninger til fremtidig karriere er ulike.</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="24AE81E3"
+                    w14:textId="2FDCC57D"
+                    w:rsidR="003712CA"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Emneord"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00EF32BB">
+                     <w:rPr>
+                        <w:b/>
+                     </w:rPr>
+                     <w:t>Emneord:</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00EF32BB">
+                     <w:t xml:space="preserve"> Ledelse, kjønn, karriere, ingeniører, forventninger</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="655EEEE6"
+                    w14:textId="77777777"
+                    w:rsidR="003712CA"
+                    w:rsidRPr="00130261"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading2"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00130261">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:lastRenderedPageBreak/>
+                     <w:t>Innledning</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="43911CA9"
+                    w14:textId="05FFDB07"
+                    w:rsidR="003712CA"
+                    w:rsidRPr="003712CA"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00130261">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Fremdeles er kvinner underrepresentert i lederstillinger, både på lavere og høyere nivå i arbeidslivet. Mest ekstrem er situasjonen på høyeste nivå i næringslivet. I allmennaksjeselskaper er kun 7% av daglige ledere kvinner (Statistikkbanken SSB, 2017). Sammen med siviløkonomutdanningen er ingeniørutdanningene svært viktige leverandører av fremtidige ledere i privat sektor (Amdam &amp; Kvålshaugen, 2016:235). Karlsen (2012b:157) har tidligere vist at menn med ingeniørutdanning har større sjanse for å bli leder enn kvinner med tilsvarende utdanning. Samtidig jobber kvinnene oftere i offentlig sektor enn sin mannlige kolleger, og de tjener dårligere (Karlsen, 2012b:158).</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="49F8BFAB"
+                    w14:textId="3B7F5184"
+                    w:rsidR="00B209B7"
+                    w:rsidRDefault="00541117"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading2"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Lister</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="37375C58"
+                    w14:textId="1D7F5A6D"
+                    w:rsidR="00130261"
+                    w:rsidRPr="00130261"
+                    w:rsidRDefault="00777612"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading3"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>En ordnet liste:</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="2F5D233C"
+                    w14:textId="30A0A22E"
+                    w:rsidR="00130261"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="00143907">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="0"/>
+                        <w:numId w:val="1"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>ol item 1.1</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="1F77DBC8"
+                    w14:textId="78E2D44A"
+                    w:rsidR="00113E0B"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="00113E0B">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="0"/>
+                        <w:numId w:val="1"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>ol item 1.2</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="02FB7AB0"
+                    w14:textId="7163B831"
+                    w:rsidR="001A111E"
+                    w:rsidRDefault="001A111E"
+                    w:rsidP="00113E0B">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="0"/>
+                        <w:numId w:val="1"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t xml:space="preserve"> </w:t>
+                  </w:r>
+                  <w:r w:rsidR="003712CA">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>ol item 1.3</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="2F09FE98"
+                    w14:textId="6779ED83"
+                    w:rsidR="00113E0B"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="00113E0B">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="1"/>
+                        <w:numId w:val="1"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Ol Item 1.3.1</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="501BE8D7"
+                    w14:textId="35ABF6F6"
+                    w:rsidR="00C42EF1"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="00C42EF1">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="1"/>
+                        <w:numId w:val="1"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Ol Item 1.3.2</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="496009AC"
+                    w14:textId="0AD727D7"
+                    w:rsidR="00472DD9"
+                    w:rsidRDefault="00472DD9"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading3"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>En punktliste:</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="68E8B63E"
+                    w14:textId="7D669AA6"
+                    w:rsidR="00472DD9"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="00472DD9">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="0"/>
+                        <w:numId w:val="2"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Ul Item 2.1</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="372872F3"
+                    w14:textId="0D0960E7"
+                    w:rsidR="00472DD9"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="00472DD9">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="0"/>
+                        <w:numId w:val="2"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Ul Item 2.2</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="383358B9"
+                    w14:textId="5B055C42"
+                    w:rsidR="00113E0B"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="00996CAA">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="1"/>
+                        <w:numId w:val="2"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Ul Item 2.2.1</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="27D3CF35"
+                    w14:textId="4D23B600"
+                    w:rsidR="003712CA"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="00996CAA">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="1"/>
+                        <w:numId w:val="2"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Ul Item 2.2.2</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="763D738C"
+                    w14:textId="7953530B"
+                    w:rsidR="002F14F8"
+                    w:rsidRDefault="002F14F8"
+                    w:rsidP="00C42EF1">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading2"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>En ordnet liste</w:t>
+                  </w:r>
+                  <w:r w:rsidR="00996CAA">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>/uordnet-sub-liste</w:t>
+                  </w:r>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>:</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="0DE68458"
+                    w14:textId="59C77148"
+                    w:rsidR="002F14F8"
+                    w:rsidRPr="002F14F8"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="002F14F8">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="0"/>
+                        <w:numId w:val="3"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>ol item 3.1</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="628A3BAF"
+                    w14:textId="4C9014D1"
+                    w:rsidR="002F14F8"
+                    w:rsidRPr="002F14F8"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="002F14F8">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="0"/>
+                        <w:numId w:val="3"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>ol item 3.2</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="6284D5A2"
+                    w14:textId="6FFB4C9E"
+                    w:rsidR="002F14F8"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="00996CAA">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="1"/>
+                        <w:numId w:val="4"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>ul item 3.2.1</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="510AD879"
+                    w14:textId="5313F686"
+                    w:rsidR="00996CAA"
+                    w:rsidRDefault="003712CA"
+                    w:rsidP="003712CA">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:numPr>
+                        <w:ilvl w:val="1"/>
+                        <w:numId w:val="4"/>
+                     </w:numPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:lastRenderedPageBreak/>
+                     <w:t>ul item 3.2.2</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="0882A049"
+                    w14:textId="14467950"
+                    w:rsidR="001C2746"
+                    w:rsidRDefault="001C2746"
+                    w:rsidP="001C2746">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading2"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Figurer</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="66881D9A"
+                    w14:textId="6A96F342"
+                    w:rsidR="00BC6D8D"
+                    w:rsidRDefault="00DB745E"
+                    w:rsidP="00BC6D8D">
+                  <w:pPr>
+                     <w:pStyle w:val="ListParagraph"/>
+                     <w:keepNext/>
+                     <w:ind w:left="0"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00DB745E">
+                     <w:rPr>
+                        <w:noProof/>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:pict w14:anchorId="6A2D6560">
+                        <v:shapetype id="_x0000_t75"
+                                     coordsize="21600,21600"
+                                     o:spt="75"
+                                     o:preferrelative="t"
+                                     path="m@4@5l@4@11@9@11@9@5xe"
+                                     filled="f"
+                                     stroked="f">
+                           <v:stroke joinstyle="miter"/>
+                           <v:formulas>
+                              <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+                              <v:f eqn="sum @0 1 0"/>
+                              <v:f eqn="sum 0 0 @1"/>
+                              <v:f eqn="prod @2 1 2"/>
+                              <v:f eqn="prod @3 21600 pixelWidth"/>
+                              <v:f eqn="prod @3 21600 pixelHeight"/>
+                              <v:f eqn="sum @0 0 1"/>
+                              <v:f eqn="prod @6 1 2"/>
+                              <v:f eqn="prod @7 21600 pixelWidth"/>
+                              <v:f eqn="sum @8 21600 0"/>
+                              <v:f eqn="prod @7 21600 pixelHeight"/>
+                              <v:f eqn="sum @10 21600 0"/>
+                           </v:formulas>
+                           <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+                           <o:lock v:ext="edit" aspectratio="t"/>
+                        </v:shapetype>
+                        <v:shape id="Picture 1"
+                                 o:spid="_x0000_i1028"
+                                 type="#_x0000_t75"
+                                 alt="A black pentagram inside a magenta pentagram in a beige field."
+                                 style="width:451.5pt;height:338.25pt;visibility:visible;mso-wrap-style:square">
+                           <v:imagedata r:id="rId7"
+                                        o:title="A black pentagram inside a magenta pentagram in a beige field"/>
+                        </v:shape>
+                     </w:pict>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="6EA8BC9D"
+                    w14:textId="56E73F60"
+                    w:rsidR="001C2746"
+                    w:rsidRDefault="00BC6D8D"
+                    w:rsidP="00BC6D8D">
+                  <w:pPr>
+                     <w:pStyle w:val="Caption"/>
+                  </w:pPr>
+                  <w:proofErr w:type="spellStart"/>
+                  <w:r>
+                     <w:t>Figur</w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellEnd"/>
+                  <w:r>
+                     <w:t xml:space="preserve"> </w:t>
+                  </w:r>
+                  <w:r>
+                     <w:fldChar w:fldCharType="begin"/>
+                  </w:r>
+                  <w:r>
+                     <w:instrText xml:space="preserve"> SEQ Figur \* ARABIC </w:instrText>
+                  </w:r>
+                  <w:r>
+                     <w:fldChar w:fldCharType="separate"/>
+                  </w:r>
+                  <w:r>
+                     <w:rPr>
+                        <w:noProof/>
+                     </w:rPr>
+                     <w:t>1</w:t>
+                  </w:r>
+                  <w:r>
+                     <w:fldChar w:fldCharType="end"/>
+                  </w:r>
+                  <w:r>
+                     <w:t>. The corridor within the corridor</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="00771F45"
+                    w14:textId="615E8543"
+                    w:rsidR="00BC6D8D"
+                    w:rsidRDefault="005243AF"
+                    w:rsidP="005243AF">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading2"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Tables</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="022B4BF6"
+                    w14:textId="16A7FC8B"
+                    w:rsidR="0049747E"
+                    w:rsidRDefault="0049747E"
+                    w:rsidP="0049747E">
+                  <w:pPr>
+                     <w:pStyle w:val="Tabelletikett"/>
+                  </w:pPr>
+                  <w:r>
+                     <w:t>Table 1</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="45901EFC"
+                    w14:textId="0B6CE49E"
+                    w:rsidR="0049747E"
+                    w:rsidRPr="0049747E"
+                    w:rsidRDefault="0049747E"
+                    w:rsidP="0049747E">
+                  <w:pPr>
+                     <w:pStyle w:val="Tabellbeskrivelse"/>
+                  </w:pPr>
+                  <w:r>
+                     <w:t>Demografiske data</w:t>
+                  </w:r>
+                  <w:r w:rsidR="007B7B6E">
+                     <w:t>: Alder, utdanningsnivå og antall søsken fordelt på kjønn.</w:t>
+                  </w:r>
+               </w:p>
+               <w:tbl>
+                  <w:tblPr>
+                     <w:tblW w:w="0" w:type="auto"/>
+                     <w:tblBorders>
+                        <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                     </w:tblBorders>
+                     <w:tblLook w:val="04A0"
+                                w:firstRow="1"
+                                w:lastRow="0"
+                                w:firstColumn="1"
+                                w:lastColumn="0"
+                                w:noHBand="0"
+                                w:noVBand="1"/>
+                  </w:tblPr>
+                  <w:tblGrid>
+                     <w:gridCol w:w="3081"/>
+                     <w:gridCol w:w="3082"/>
+                     <w:gridCol w:w="3082"/>
+                  </w:tblGrid>
+                  <w:tr w:rsidR="003E6461"
+                        w:rsidRPr="00DB745E"
+                        w14:paraId="7630F5A7"
+                        w14:textId="77777777"
+                        w:rsidTr="00DB745E">
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3081" w:type="dxa"/>
+                           <w:tcBorders>
+                              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                              <w:left w:val="nil"/>
+                              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                              <w:right w:val="nil"/>
+                           </w:tcBorders>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="2B3C036F"
+                             w14:textId="77777777"
+                             w:rsidR="0049747E"
+                             w:rsidRPr="000C0990"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00DB745E">
+                           <w:pPr>
+                              <w:pStyle w:val="TabellKolonneoverskrift"/>
+                           </w:pPr>
+                        </w:p>
+                     </w:tc>
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3082" w:type="dxa"/>
+                           <w:tcBorders>
+                              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                              <w:left w:val="nil"/>
+                              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                              <w:right w:val="nil"/>
+                           </w:tcBorders>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="385C8647"
+                             w14:textId="1482405F"
+                             w:rsidR="0049747E"
+                             w:rsidRPr="000C0990"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00DB745E">
+                           <w:pPr>
+                              <w:pStyle w:val="TabellKolonneoverskrift"/>
+                           </w:pPr>
+                           <w:r w:rsidRPr="000C0990">
+                              <w:t>Kvinner</w:t>
+                           </w:r>
+                        </w:p>
+                     </w:tc>
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3082" w:type="dxa"/>
+                           <w:tcBorders>
+                              <w:top w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                              <w:left w:val="nil"/>
+                              <w:bottom w:val="single" w:sz="4" w:space="0" w:color="auto"/>
+                              <w:right w:val="nil"/>
+                           </w:tcBorders>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="50981A2C"
+                             w14:textId="5265E497"
+                             w:rsidR="0049747E"
+                             w:rsidRPr="000C0990"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00DB745E">
+                           <w:pPr>
+                              <w:pStyle w:val="TabellKolonneoverskrift"/>
+                           </w:pPr>
+                           <w:r w:rsidRPr="000C0990">
+                              <w:t>Menn</w:t>
+                           </w:r>
+                        </w:p>
+                     </w:tc>
+                  </w:tr>
+                  <w:tr w:rsidR="003E6461"
+                        w:rsidRPr="00DB745E"
+                        w14:paraId="1F506CC8"
+                        w14:textId="77777777"
+                        w:rsidTr="00DB745E">
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3081" w:type="dxa"/>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="4F4D088B"
+                             w14:textId="334664CD"
+                             w:rsidR="0049747E"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00DB745E">
+                           <w:pPr>
+                              <w:pStyle w:val="TabellRadoverskrift"/>
+                           </w:pPr>
+                           <w:r>
+                              <w:t>Alder</w:t>
+                           </w:r>
+                        </w:p>
+                     </w:tc>
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3082" w:type="dxa"/>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="594DA685"
+                             w14:textId="58F9CC9B"
+                             w:rsidR="0049747E"
+                             w:rsidRPr="00DB745E"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00DB745E">
+                           <w:pPr>
+                              <w:jc w:val="center"/>
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                           </w:pPr>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>23</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:rFonts w:cs="Calibri"/>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>±</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>5</w:t>
+                           </w:r>
+                        </w:p>
+                     </w:tc>
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3082" w:type="dxa"/>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="12FA16FC"
+                             w14:textId="35BAFBE6"
+                             w:rsidR="0049747E"
+                             w:rsidRPr="00DB745E"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00DB745E">
+                           <w:pPr>
+                              <w:jc w:val="center"/>
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                           </w:pPr>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>2</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>7</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:rFonts w:cs="Calibri"/>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>±</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:rFonts w:cs="Calibri"/>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>8</w:t>
+                           </w:r>
+                        </w:p>
+                     </w:tc>
+                  </w:tr>
+                  <w:tr w:rsidR="003E6461"
+                        w:rsidRPr="00DB745E"
+                        w14:paraId="6ABF97E0"
+                        w14:textId="77777777"
+                        w:rsidTr="00DB745E">
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3081" w:type="dxa"/>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="6B6A0713"
+                             w14:textId="40730B00"
+                             w:rsidR="0049747E"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00DB745E">
+                           <w:pPr>
+                              <w:pStyle w:val="TabellRadoverskrift"/>
+                           </w:pPr>
+                           <w:r>
+                              <w:t>Fullført utdanningsnivå</w:t>
+                           </w:r>
+                        </w:p>
+                     </w:tc>
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3082" w:type="dxa"/>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="5D9E5C9C"
+                             w14:textId="23617533"
+                             w:rsidR="0049747E"
+                             w:rsidRPr="00DB745E"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00DB745E">
+                           <w:pPr>
+                              <w:jc w:val="center"/>
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                           </w:pPr>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>15</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:rFonts w:cs="Calibri"/>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>±</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>5</w:t>
+                           </w:r>
+                        </w:p>
+                     </w:tc>
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3082" w:type="dxa"/>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="1F53BE7E"
+                             w14:textId="7F380689"
+                             w:rsidR="0049747E"
+                             w:rsidRPr="00DB745E"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00DB745E">
+                           <w:pPr>
+                              <w:jc w:val="center"/>
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                           </w:pPr>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>1</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>4</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:rFonts w:cs="Calibri"/>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>±</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>5</w:t>
+                           </w:r>
+                        </w:p>
+                     </w:tc>
+                  </w:tr>
+                  <w:tr w:rsidR="003E6461"
+                        w:rsidRPr="00DB745E"
+                        w14:paraId="3BF2F258"
+                        w14:textId="77777777"
+                        w:rsidTr="00DB745E">
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3081" w:type="dxa"/>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="53325DBE"
+                             w14:textId="211AAE96"
+                             w:rsidR="0049747E"
+                             w:rsidRPr="00DB745E"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00BC6D8D">
+                           <w:pPr>
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                           </w:pPr>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:lastRenderedPageBreak/>
+                              <w:t>Antall søsken</w:t>
+                           </w:r>
+                        </w:p>
+                     </w:tc>
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3082" w:type="dxa"/>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="4E43150B"
+                             w14:textId="5C203458"
+                             w:rsidR="0049747E"
+                             w:rsidRPr="00DB745E"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00DB745E">
+                           <w:pPr>
+                              <w:jc w:val="center"/>
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                           </w:pPr>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:rFonts w:cs="Calibri"/>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>1</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:rFonts w:cs="Calibri"/>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>±</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:rFonts w:cs="Calibri"/>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>1</w:t>
+                           </w:r>
+                        </w:p>
+                     </w:tc>
+                     <w:tc>
+                        <w:tcPr>
+                           <w:tcW w:w="3082" w:type="dxa"/>
+                           <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+                           <w:vAlign w:val="center"/>
+                        </w:tcPr>
+                        <w:p w14:paraId="7E8B2AB9"
+                             w14:textId="211BCD35"
+                             w:rsidR="0049747E"
+                             w:rsidRPr="00DB745E"
+                             w:rsidRDefault="0049747E"
+                             w:rsidP="00DB745E">
+                           <w:pPr>
+                              <w:jc w:val="center"/>
+                              <w:rPr>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                           </w:pPr>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:rFonts w:cs="Calibri"/>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>2</w:t>
+                           </w:r>
+                           <w:r w:rsidRPr="00DB745E">
+                              <w:rPr>
+                                 <w:rFonts w:cs="Calibri"/>
+                                 <w:lang w:val="nb-NO"/>
+                              </w:rPr>
+                              <w:t>±1</w:t>
+                           </w:r>
+                        </w:p>
+                     </w:tc>
+                  </w:tr>
+               </w:tbl>
+               <w:p w14:paraId="1FAA2AAE"
+                    w14:textId="77777777"
+                    w:rsidR="005D2497"
+                    w:rsidRDefault="005D2497"
+                    w:rsidP="00BC6D8D">
+                  <w:pPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+               </w:p>
+               <w:p w14:paraId="2D2F458A"
+                    w14:textId="671C7D3A"
+                    w:rsidR="005D2497"
+                    w:rsidRDefault="001C7210"
+                    w:rsidP="005D2497">
+                  <w:pPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="001C7210">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet.</w:t>
+                  </w:r>
+                  <w:r w:rsidR="005D2497">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t xml:space="preserve"> </w:t>
+                  </w:r>
+                  <w:r w:rsidR="005D2497" w:rsidRPr="001C7210">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet.</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="4AFD0EA9"
+                    w14:textId="511B5639"
+                    w:rsidR="00A62CA0"
+                    w:rsidRDefault="00A62CA0"
+                    w:rsidP="00A62CA0">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading2"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Et blokksitat</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="20C7AB8A"
+                    w14:textId="7DDAC274"
+                    w:rsidR="007B6889"
+                    w:rsidRPr="007B6889"
+                    w:rsidRDefault="007B6889"
+                    w:rsidP="007B6889">
+                  <w:pPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Det er viktig å sitere ordentlig.</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="0986A1C7"
+                    w14:textId="77777777"
+                    w:rsidR="00A62CA0"
+                    w:rsidRDefault="00A62CA0"
+                    w:rsidP="00A62CA0">
+                  <w:pPr>
+                     <w:pStyle w:val="Blokksitat"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="001C7210">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet.</w:t>
+                  </w:r>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t xml:space="preserve"> </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="001C7210">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam at blandit sapien. Quisque sit amet.</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="00349968"
+                    w14:textId="77777777"
+                    w:rsidR="005D2497"
+                    w:rsidRPr="00130261"
+                    w:rsidRDefault="005D2497"
+                    w:rsidP="005D2497">
+                  <w:pPr>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00130261">
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Denne konklusjonen har imidlertid blitt tilbakevist av andre empiriske studier (Powell og Butterfield 1997; Storvik og Schøne 2008).</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="1C565253"
+                    w14:textId="66EB6ED6"
+                    w:rsidR="005243AF"
+                    w:rsidRDefault="005D2497"
+                    w:rsidP="005D2497">
+                  <w:pPr>
+                     <w:pStyle w:val="Heading2"/>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                  </w:pPr>
+                  <w:r>
+                     <w:rPr>
+                        <w:lang w:val="nb-NO"/>
+                     </w:rPr>
+                     <w:t>Referanser</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="576B7708"
+                    w14:textId="04CAAD5E"
+                    w:rsidR="005D2497"
+                    w:rsidRPr="00983040"
+                    w:rsidRDefault="005D2497"
+                    w:rsidP="00983040">
+                  <w:pPr>
+                     <w:pStyle w:val="Referanse"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t>Karlsen, H. (2012a). Gender and ethnic differences in occupational positions and earnings among nurses and engineers in Norway. Identical choices, unequal outcomes</w:t>
+                  </w:r>
+                  <w:r w:rsidR="00983040">
+                     <w:t>.</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t xml:space="preserve"> </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00983040">
+                     <w:rPr>
+                        <w:i/>
+                     </w:rPr>
+                     <w:t>Work, Employment and Society 26</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t xml:space="preserve">: (s.278-295). </w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="50C24FFD"
+                    w14:textId="12EC0D66"
+                    w:rsidR="005D2497"
+                    w:rsidRPr="00983040"
+                    w:rsidRDefault="005D2497"
+                    w:rsidP="00983040">
+                  <w:pPr>
+                     <w:pStyle w:val="Referanse"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t xml:space="preserve">Karlsen, H. (2012b). </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00983040">
+                     <w:rPr>
+                        <w:i/>
+                     </w:rPr>
+                     <w:t xml:space="preserve">Not so unconventional after all? A Quantitative study of men in care-oriented study </w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellStart"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:rPr>
+                        <w:i/>
+                     </w:rPr>
+                     <w:t>programmes</w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellEnd"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:rPr>
+                        <w:i/>
+                     </w:rPr>
+                     <w:t xml:space="preserve"> and professional occupations in Norway.</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t xml:space="preserve"> Oslo: </w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellStart"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t>Høgskolen</w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellEnd"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t xml:space="preserve"> I Oslo </w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellStart"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t>og</w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellEnd"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t xml:space="preserve"> </w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellStart"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t>Akershus</w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellEnd"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t xml:space="preserve">, </w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellStart"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t>Avhandling</w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellEnd"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t xml:space="preserve"> 2012:1.</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="7F523DE1"
+                    w14:textId="77777777"
+                    w:rsidR="00A62CA0"
+                    w:rsidRPr="00983040"
+                    w:rsidRDefault="00A62CA0"
+                    w:rsidP="00983040">
+                  <w:pPr>
+                     <w:pStyle w:val="Referanse"/>
+                  </w:pPr>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t xml:space="preserve">Powell, G. &amp; Butterfield, D. (1997) Effects of Race and Gender on Promotions to Top Management in a Federal Department, </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00983040">
+                     <w:rPr>
+                        <w:i/>
+                     </w:rPr>
+                     <w:t>Academy of Management Journal 40</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t>: 112-128.</w:t>
+                  </w:r>
+               </w:p>
+               <w:p w14:paraId="7107E866"
+                    w14:textId="7FA88E13"
+                    w:rsidR="005D2497"
+                    w:rsidRPr="00983040"
+                    w:rsidRDefault="00A62CA0"
+                    w:rsidP="00983040">
+                  <w:pPr>
+                     <w:pStyle w:val="Referanse"/>
+                  </w:pPr>
+                  <w:proofErr w:type="spellStart"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t>Storvik</w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellEnd"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t xml:space="preserve">, A. &amp; </w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellStart"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t>Schøne</w:t>
+                  </w:r>
+                  <w:proofErr w:type="spellEnd"/>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t xml:space="preserve">, P. (2008). In search of the glass ceiling: gender and recruitment to management in Norway’s state bureaucracy, </w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00983040">
+                     <w:rPr>
+                        <w:i/>
+                     </w:rPr>
+                     <w:t>British Journal of Sociology 59</w:t>
+                  </w:r>
+                  <w:r w:rsidRPr="00983040">
+                     <w:t>(4): (s.729-755).</w:t>
+                  </w:r>
+               </w:p>
+               <w:sectPr w:rsidR="005D2497" w:rsidRPr="00983040" w:rsidSect="000E6E42">
+                  <w:headerReference w:type="default" r:id="rId8"/>
+                  <w:footerReference w:type="default" r:id="rId9"/>
+                  <w:headerReference w:type="first" r:id="rId10"/>
+                  <w:pgSz w:w="11909" w:h="16834" w:code="9"/>
+                  <w:pgMar w:top="1440"
+                           w:right="1440"
+                           w:bottom="1440"
+                           w:left="1440"
+                           w:header="720"
+                           w:footer="720"
+                           w:gutter="0"/>
+                  <w:cols w:space="720"/>
+                  <w:titlePg/>
+                  <w:docGrid w:linePitch="360"/>
+               </w:sectPr>
+            </w:body>
+         </w:document>
       </pkg:xmlData>
    </pkg:part>
 </pkg:package>

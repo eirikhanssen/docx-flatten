@@ -22,6 +22,7 @@
                 xmlns:am3d="http://schemas.microsoft.com/office/drawing/2017/model3d"
                 xmlns:o="urn:schemas-microsoft-com:office:office"
                 xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships"
+                xmlns:rp="http://schemas.openxmlformats.org/package/2006/relationships"
                 xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math"
                 xmlns:v="urn:schemas-microsoft-com:vml"
                 xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing"
@@ -49,20 +50,50 @@
         <p:input port="stylesheet">
             <p:inline>
                 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage">
+                    <xsl:import href="docx-flatten-functions.xsl"/>
                     <xsl:param name="folder" select="folder"/>
-                    <xsl:variable name="rels" select="'/_rels/.rels'"/>
 
                     <xsl:template match="/pkg:package">
                         <xsl:copy>
                             <xsl:copy-of select="node() | @*"/>
-                            <pkg:part pkg_name="{$rels}"><pkg:xmlData><xsl:sequence select="doc(concat($folder,$rels))"></xsl:sequence></pkg:xmlData></pkg:part>
+                            <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="'/_rels/.rels'"/></xsl:call-template>
+                            <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="'/word/_rels/document.xml.rels'"/></xsl:call-template>
                         </xsl:copy>
                     </xsl:template>
+                    
+                </xsl:stylesheet>
+            </p:inline>
+        </p:input>
+        <p:input port="parameters">
+            <p:pipe port="parameters" step="flatten"/>
+        </p:input>
+    </p:xslt>
 
-                    <xsl:template match="node() | @*">
-                        <xsl:apply-templates select="node() | @*"/>
+    <p:xslt name="xslt2" version="2.0">
+        <p:input port="stylesheet">
+            <p:inline>
+                <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="2.0" 
+                    xmlns:pkg="http://schemas.microsoft.com/office/2006/xmlPackage"
+                    xmlns:rp="http://schemas.openxmlformats.org/package/2006/relationships">
+                    <xsl:import href="docx-flatten-functions.xsl"/>
+                    <xsl:param name="folder" select="folder"/>
+                    <xsl:variable name="test"><xsl:sequence select="//pkg:part[@pkg_name='/_rels/.rels']//rp:Relationship/string(@Target)"/></xsl:variable>
+                    <!--<xsl:variable name="rels"><xsl:sequence select="string(pkg:part[@pkg_name='/_rels/.rels']//@*)"></xsl:sequence></xsl:variable>-->
+                    <xsl:template match="/pkg:package">
+                        <xsl:copy>
+                            <xsl:copy-of select="node() | @*"/>
+                            <!-- 
+                            <xsl:for-each select="$rels/@pkg_name">
+                                    <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="."/></xsl:call-template>    
+                            </xsl:for-each>
+                             -->
+                            <xsl:for-each select="//pkg:part[@pkg_name='/_rels/.rels']//rp:Relationship/string(@Target)">
+                                <xsl:call-template name="part"><xsl:with-param name="epath" select="$folder"/><xsl:with-param name="ipath" select="."/></xsl:call-template>
+                            </xsl:for-each>
+                            
+                        </xsl:copy>
                     </xsl:template>
-
+                    
                 </xsl:stylesheet>
             </p:inline>
         </p:input>
