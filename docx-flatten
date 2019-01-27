@@ -1,2 +1,8 @@
 #!/bin/bash
+# docx-flatten filname.docx
+# readlink -f filename.docx > save to bash variable: filepath
+# create a timestamp
+# mkdir filename-timestamp && cd filename-timestamp
+# unzip filepath
+# run xproc-script on the folder filename-timestamp
 calabash -p folder="/home/hanson/projects/docx2jats/docx-flatten/sample/sample-unzipped/" docx-flatten.xpl
