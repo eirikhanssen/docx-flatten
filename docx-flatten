@@ -5,4 +5,5 @@
 # mkdir filename-timestamp && cd filename-timestamp
 # unzip filepath
 # run xproc-script on the folder filename-timestamp
-calabash -p folder="/home/hanson/projects/docx2jats/docx-flatten/sample/sample-unzipped/" docx-flatten.xpl
+folder="/home/hanson/projects/docx2jats/ocf2jats/sample/sample-unzipped-indented/"
+calabash -p folder=$folder docx-flatten.xpl
